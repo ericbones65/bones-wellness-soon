@@ -7,8 +7,12 @@
 <meta name="description" content="Bienestar y Rendimiento Óptimo · Protocolos personalizados de péptidos bajo supervisión médica · Dr. Eric Bones, MD · San Juan, PR. Próximamente." />
 <meta property="og:title" content="Bones Medical Wellness — Próximamente" />
 <meta property="og:description" content="Bienestar y Rendimiento Óptimo. Protocolos de péptidos bajo supervisión médica. Próximamente." />
-<meta property="og:image" content="wellness-hero.png" />
+<meta property="og:image" content="wellness-brag.jpg" />
 <meta property="og:type" content="website" />
+<meta property="og:video" content="wellness-brag.mp4" />
+<meta property="og:video:type" content="video/mp4" />
+<meta property="og:video:width" content="1080" />
+<meta property="og:video:height" content="1920" />
 <style>
   :root{
     --bg:#0a1f2e; --bg2:#0d2a3d; --card:rgba(255,255,255,.04); --line:rgba(255,255,255,.1);
@@ -49,6 +53,10 @@
   .shot{margin-top:28px;width:100%;max-width:520px;border-radius:16px;overflow:hidden;
     border:1px solid var(--line);box-shadow:0 20px 60px rgba(0,0,0,.4)}
   .shot img{width:100%;display:block}
+  .video{margin-top:30px;width:100%;max-width:300px;border-radius:22px;overflow:hidden;
+    border:1px solid var(--line);background:#06131d;
+    box-shadow:0 26px 70px rgba(0,0,0,.5),0 0 0 1px rgba(23,166,153,.12)}
+  .video video{width:100%;display:block;background:#06131d}
   .cta{margin-top:26px;display:flex;gap:12px;flex-wrap:wrap;justify-content:center}
   a.btn{text-decoration:none;font-weight:700;padding:14px 22px;border-radius:12px;font-size:15px}
   a.primary{background:var(--teal);color:#06231f}
@@ -74,7 +82,10 @@
     <div class="pill"><b>Bienestar</b><span>Sueño · Enfoque · Piel</span></div>
   </div>
 
-  <div class="shot"><img src="wellness-hero.png" alt="Vista previa de Bones Medical Wellness" /></div>
+  <div class="video">
+    <video src="wellness-brag.mp4" poster="wellness-brag.jpg" autoplay muted loop playsinline controls preload="metadata"
+      aria-label="Video promocional de Bones Medical Wellness"></video>
+  </div>
 
   <div class="cta">
     <a class="btn primary" href="tel:+17877830399">Reservar mi lugar</a>
